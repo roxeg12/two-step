@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.logo {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Jersey 10', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    margin:0px;
+}
+
+.nav-links a{
+    color: rgb(39, 38, 38);
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.header a:hover, .header a:active {
+    color: rgb(236, 136, 5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0,06);
+}
+
+
+.fa-bag-shopping{
+    width: 25px;
+    height: auto;
+}
