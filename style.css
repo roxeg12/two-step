@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    font-family: 'Kanit', sans-serif;
 }
 
 .logo {
@@ -153,4 +153,36 @@ body {
 .hero button:hover{
     background-color: rgb(63, 62, 62);
     color: white;
+}
+
+/* Categories */
+
+.categories .cat-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    margin: 15px 0px;
+}
+
+.categories .cat-box:hover {
+    box-shadow: 10px 10px 55px rgba(70, 60, 220, 0.1);
+}
+
+.cat-box img {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #cce7d0;
+}
+
+.cat-box h6 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0px;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    background-color: rgb(233, 160, 65);
+    border-radius: 5px;
 }
