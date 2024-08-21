@@ -250,7 +250,7 @@ section{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0px;
     transition: 0.2s ease;
-    position: relative;
+    
 }
 
 .hot-products .product:hover{
@@ -287,7 +287,6 @@ section{
 .hot-products .product .desc h4{
     padding-top: 7px;
     font-size: 19px;
-    
     color:black;
 }
 
@@ -299,7 +298,7 @@ section{
     background-color: rgba(235, 159, 60, 0.253);
     color: rgb(73, 72, 72);
     border: 1px solid #e7decc;
-    position: absolute;
+    
     bottom: 20px;
     right: 10px;
 }
