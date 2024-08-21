@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, h6, p{
 section{
     margin:0px;
 }
+
+h2{
+    font-size: 50px;
+    margin: 10px;
+}
+
 /*Header*/
 
 .logo {
@@ -175,10 +181,7 @@ section{
     padding: 25px 0px;
 }
 
-.categories h2{
-    font-size: 50px;
-    margin: 10px;
-}
+
 
 .categories h2 span{
     background-color: rgb(233, 160, 65);
@@ -238,6 +241,11 @@ section{
 
 .hot-products{
     text-align: center;
+}
+
+.hot-products p{
+    font-size: 19px;
+    margin: 5px;
 }
 
 .hot-products .product{
