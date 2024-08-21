@@ -241,8 +241,8 @@ section{
 }
 
 .hot-products .product{
-    width: 23%;
-    min-width: 250px;
+    width: 250px;
+    height: 430px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
@@ -252,7 +252,7 @@ section{
     transition: 0.2s ease;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 }
 
 .hot-products .product:hover{
@@ -261,6 +261,7 @@ section{
 
 .hot-products .product img{
     width: 100%;
+    height: auto;
     border-radius: 18px;
     align-self: center;
 }
