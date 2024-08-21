@@ -250,6 +250,7 @@ section{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0px;
     transition: 0.2s ease;
+    position: relative;
 }
 
 .hot-products .product:hover{
@@ -268,12 +269,44 @@ section{
 
 .hot-products .product .desc span{
     color: #606063;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .hot-products .product .desc h5{
     margin: 0px;
     padding-top: 7px;
     color: #242323;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.hot-products .product .desc i{
+    font-size: 13px;
+    color:rgb(235, 177, 18);
+}
+
+.hot-products .product .desc h4{
+    padding-top: 7px;
+    font-size: 19px;
+    
+    color:black;
+}
+
+.hot-products .product .bag{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    background-color: rgba(235, 159, 60, 0.253);
+    color: rgb(73, 72, 72);
+    border: 1px solid #e7decc;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.hot-products .pro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
